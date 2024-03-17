@@ -220,27 +220,90 @@
 // }
 
 // 16
-// let numX = +prompt("please write the first number")
-// if (numX <= 0){
-//     numX = numX * -1
-// }
-// console.log(numX);
+        // let numX = +prompt("please write the first number")
+
+        // if (numX < 0){
+        //     console.log(numX);
+        // } else if (numX === 0){
+        //     numX = numX * -1 + -1
+        // } else if ( 0 < numX && numX < 2 ) {
+        //     numX = numX ** 2
+        // } else if ( numX >= 2) {
+        //     numX = 4
+        // }
+        // console.log(numX);
 
 // 17
-let yil = parseInt(prompt("Yilni kiriting: "));
-let kunSoni = 365; 
+// let year = parseInt(prompt("Yilni kiriting: "));
+// let numDay = 365; 
 
-if (yil % 4 === 0) {
-    if (yil % 100 === 0) {
-        if (yil % 400 === 0) {
-            kunSoni = 366; 
-        }
-    } else {
-        kunSoni = 366; 
-    }
+// if (year % 4 === 0) {
+//     if (year % 100 === 0) {
+//         if (year % 400 === 0) {
+//             numDay = 366; 
+//         }
+//     } else {
+//         numDay = 366; 
+//     }
+// }
+
+// console.log(`${year} yilida ${numDay} kun bor.`);
+
+
+// 18
+//  let numX = +prompt("please write the first number")
+//  if (numX < 1000 && numX > 0) {
+//     if ( numX > 9 && numX < 100 && numX % 2 == 0 ){
+//         console.log(numX + " ikki xonali juft son");
+//     } else if (numX < 10 && numX % 2 == 0){
+//         console.log(numX + " bir xonali juft son");
+//     } else if ( numX > 99 && numX < 1000 && numX % 2 == 0){
+//         console.log( numX + " uch xonali juft son");
+//     } else if ( numX > 9 && numX < 100 && numX % 2 == 1){
+//         console.log(numX + " ikki xonali toq son");
+//     } else if (numX < 10 && numX % 2 == 1){
+//         console.log(numX + " bir xonali toq son");
+//     } else if ( numX > 99 && numX < 1000 && numX % 2 == 1){
+//         console.log( numX + " uch xonali toq son");
+//     }
+//  } else {
+//     console.log("berilgan oraqliqda kiritilmagan");
+//  }
+
+
+let numK = prompt("numK")
+let result = ""
+if ( numK > 0 && numK < 6){
+    
+}
+switch (m) {
+    case 0:
+        result = "Yakshanba"
+        break
+    case 1:
+        result = "Dushanba";
+        break
+    case 2:
+        result = "Seshanba";
+        break
+    case 3:
+        result = "horshamba";
+        break
+    case 4:
+        result = "payshanba";
+        break
+    case 5:
+        result = "juma";
+        break
+    case 6:
+        result = "shanba";
+        break
+
 }
 
-console.log(`${yil} yilida ${kunSoni} kun bor.`);
+console.log(result)
+
+
 
 
 
